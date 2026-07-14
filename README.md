@@ -37,7 +37,6 @@ Coloca estos archivos en `assets/img/`. Mientras no existan, el sitio muestra un
 | `personaje1-pato.jpg` | Personaje Pato (página de la novela) |
 | `personaje2-juliana.jpg` | Personaje Juliana (página de la novela) |
 | `personaje3-beca.jpg` | Personaje Beca (página de la novela) |
-| `personajes.png` | *(Opcional)* imagen de apoyo de los tres personajes |
 | `ebook2.png` | Portada «Dibuja y Colorea» (Tienda) |
 | `ebook1.png` | Portada «Girls Trip: Kpop Demon Hunters» (Tienda) |
 
