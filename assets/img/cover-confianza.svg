@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 400" width="300" height="400">
+  <defs>
+    <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#a83b2c"/>
+      <stop offset="1" stop-color="#5f231a"/>
+    </linearGradient>
+  </defs>
+  <rect width="300" height="400" fill="url(#g1)"/>
+  <rect x="16" y="16" width="268" height="368" fill="none" stroke="#e7cf9a" stroke-width="2"/>
+  <text x="150" y="70" text-anchor="middle" fill="#e7cf9a" font-family="Georgia, serif" font-size="13" letter-spacing="3">NOVELA · 2026</text>
+  <text x="150" y="185" text-anchor="middle" fill="#faf5ec" font-family="Georgia, serif" font-size="30" font-weight="bold">Ya que nos</text>
+  <text x="150" y="222" text-anchor="middle" fill="#faf5ec" font-family="Georgia, serif" font-size="30" font-weight="bold">agarramos</text>
+  <text x="150" y="259" text-anchor="middle" fill="#faf5ec" font-family="Georgia, serif" font-size="30" font-weight="bold">confianza</text>
+  <text x="150" y="345" text-anchor="middle" fill="#e7cf9a" font-family="Georgia, serif" font-size="16" font-style="italic">Daniela Palina</text>
+</svg>

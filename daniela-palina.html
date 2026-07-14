@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daniela Palina · La Tonta Tinta</title>
+  <meta name="description" content="Daniela P. Ortiz (Daniela Palina), escritora mexicana nacida en Toluca en 1990. Autora independiente bajo el sello La Tonta Tinta.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;700&family=Fredoka:wght@400;500;600&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🖋️</text></svg>">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="index.html">La Tonta Tinta<small>Daniela Palina</small></a>
+      <div class="nav-right">
+        <ul class="nav-links">
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="daniela-palina.html" class="active">Daniela Palina</a></li>
+          <li><a href="libros.html">Libros</a></li>
+          <li><a href="servicios.html">Servicios</a></li>
+          <li><a href="tienda.html">Tienda</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+          <li class="nav-cta-mobile"><a class="mobile-cta" href="libro-ya-que-nos-agarramos-confianza.html#comprar">Comprar la novela ♡</a></li>
+        </ul>
+        <a class="btn btn--sm nav-cta" href="libro-ya-que-nos-agarramos-confianza.html#comprar">Comprar ♡</a>
+        <button class="nav-toggle" aria-label="Menú">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <section class="section">
+    <div class="container">
+      <p class="eyebrow center">Sobre la autora</p>
+      <h1 class="center" style="margin-bottom:2rem;">Daniela Palina</h1>
+
+      <div class="about-grid">
+        <div class="about-photo">
+          <img src="assets/img/daniela-palina.jpg" alt="Retrato de Daniela Palina"
+               onerror="this.onerror=null;this.parentNode.innerHTML='<div style=&quot;padding:3rem 1rem;text-align:center;color:var(--ink-soft)&quot;>Fotografía de Daniela Palina<br><small>(daniela-palina.jpg)</small></div>';">
+        </div>
+        <div>
+          <p>Daniela P. Ortiz, conocida como Daniela Palina, es una escritora mexicana nacida en Toluca en 1990. Millennial amante de los tiburones y de las historias que surgen de las conversaciones cotidianas, ha desarrollado una voz narrativa fresca, cercana y honesta.</p>
+          <p>Es licenciada en Comunicación y Medios Digitales y actualmente reside en Mazatlán, Sinaloa, donde ha construido su camino como autora independiente. Bajo el sello creativo La Tonta Tinta, Dani combina escritura, ilustración y journaling como formas de explorar emociones, experiencias y reflexiones de la vida contemporánea.</p>
+          <p>En 2021 publicó su primer libro, «¿Qué fregados has estado haciendo?», una obra donde comparte aventuras y confesiones personales. Con «Ya que nos agarramos confianza», Dani se adentra en la narrativa de ficción con un estilo coloquial, lleno de humor y sensibilidad, explorando temas como la amistad, el amor y los procesos de crecimiento personal que marcan la vida en los veintes.</p>
+          <div class="btn-row">
+            <a class="btn" href="libros.html">Descubre sus libros</a>
+            <a class="btn btn--outline" href="contacto.html">Contáctala</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <div class="footer-brand">La Tonta Tinta</div>
+          <p style="margin:.4rem 0 0;">Daniela Palina · Autora y servicios editoriales</p>
+          <div class="social-row">
+            <a href="https://www.instagram.com/latontatinta_mx/" target="_blank" rel="noopener" aria-label="Instagram">IG</a>
+            <a href="https://www.tiktok.com/@la.tonta.tinta" target="_blank" rel="noopener" aria-label="TikTok">TT</a>
+          </div>
+        </div>
+        <ul class="footer-nav">
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="daniela-palina.html">Daniela Palina</a></li>
+          <li><a href="libros.html">Libros</a></li>
+          <li><a href="servicios.html">Servicios</a></li>
+          <li><a href="tienda.html">Tienda</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+        <ul class="footer-nav">
+          <li><a href="mailto:danipalina3@gmail.com">danipalina3@gmail.com</a></li>
+          <li><a href="https://www.instagram.com/latontatinta_mx/" target="_blank" rel="noopener">Instagram</a></li>
+          <li><a href="https://www.tiktok.com/@la.tonta.tinta" target="_blank" rel="noopener">TikTok</a></li>
+        </ul>
+      </div>
+      <div class="copyright">© <span id="year"></span> Daniela Palina · La Tonta Tinta. Todos los derechos reservados.</div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
